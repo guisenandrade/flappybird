@@ -58,10 +58,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\passaro.cs" />
-    <Compile Include="Assets\scripts\obstaculos.cs" />
-    <Compile Include="Assets\scripts\GeradorDeObstaculos.cs" />
-    <Compile Include="Assets\scripts\chao.cs" />
+    <Compile Include="Assets\Scripts\Base.cs" />
+    <Compile Include="Assets\Scripts\Obsaculo.cs" />
+    <Compile Include="Assets\Scripts\Bird.cs" />
+    <Compile Include="Assets\Scripts\GeradorObstaculo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
