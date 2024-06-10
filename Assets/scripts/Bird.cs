@@ -16,7 +16,7 @@ public class Bird : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(Time.deltaTime);
+        
         if(Input.GetMouseButtonDown(0))
         {
             this.Impulsionar();
