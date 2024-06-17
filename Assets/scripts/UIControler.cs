@@ -6,13 +6,13 @@ using UnityEngine.UIElements;
 public class UIControler : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int pontos;
+    public int pontos;
     private Label textoPontuacao;
 
     public void adicionarPontos()
     {
-        this.textoPontuacao.text = this.pontos.ToString();
         this.pontos++;
+        this.textoPontuacao.text = this.pontos.ToString();
     }
     void Start()
     {
@@ -20,9 +20,4 @@ public class UIControler : MonoBehaviour
         this.textoPontuacao = root.Q<Label>("pontos");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

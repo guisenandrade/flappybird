@@ -1,5 +1,5 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
-    <ui:VisualElement style="flex-grow: initial; background-color: rgb(242, 184, 255); width: 50px; height: 50px; align-items: center; justify-content: center; align-self: center;">
-        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="pontos" style="color: rgb(255, 255, 255);" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: initial; background-color: rgba(60, 60, 60, 0); width: 50px; height: 50px; align-items: center; justify-content: center; align-self: center;">
+        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="pontos" style="color: rgb(14, 13, 13); font-size: 30px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&apos;); -unity-text-align: upper-center; top: 55px;" />
     </ui:VisualElement>
 </ui:UXML>
